@@ -2,7 +2,7 @@
 ## Team Members - Chinmay Wadgaonkar, Ronan Manoj, Caleb Owen
 
 # Links to Project Artifacts
-[Block Diagram](https://drive.google.com/file/d/17l8S0OwqSI-xG5-GqkXPJ2gPXGZ6aeyK/view?usp=sharing) 
+[Block Diagram](https://drive.google.com/file/d/1KOA78apzNNPia-fC34P-Us2_a54TJIc9/view?usp=sharing) 
 
 [Project Timeline](https://drive.google.com/file/d/11OQFshdq6lcE1gGwaxZeSOJ7-gNpOCc9/view?usp=sharing)
 
