@@ -12,5 +12,8 @@
 
 [System Checkoff](https://docs.google.com/document/d/1PnhCiQyGDOb1UAlV4kYDYHzEabZFIqprTFnEdYlQn18/edit?usp=sharing)
 
+[Project Summary Video](https://m.youtube.com/watch?v=mcWeN0A2t3s)
+
+
 # Code
 Our code is under the `src/` directory.
