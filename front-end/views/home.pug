@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    .uk-section
+        .uk-container
+            p.uk-text-lead.uk-text-large.uk-text-center.uk-text-middle GH Supply Chain Search
+
+        .uk-container-xsmall.uk-align-center
+            form(method='POST' action='/search')
+                fieldset.uk-fieldset
+                    //- legend.uk-legend Enter Search Query
+                    .uk-margin
+                    input.uk-input(type='text' placeholder='SC Search Query' name='txtQuery' required='')
+                p.uk-margin.uk-align-center
+                    button.uk-button.uk-button-primary.uk-align-center(type='submit') Search
+
