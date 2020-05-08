@@ -32,7 +32,6 @@ router.post('/search', (req, res) =>
   // txtQuery is the key for request query. (i.e.: txtQuery:"pixel3xl")
 
   // const tmpURL = `http://localhost:9200/_all/_search?q=*:${incQuerTxt}`
-  const tmpURL = `https://xgcb6wpi2s:29hxwx7gy@sd-test-one-5186112502.us-west-2.bonsaisearch.net:443/_all/_search?q=*:${incQuerTxt}`
   // const tmpURL = `http://localhost:9080/astest?q=*:${incQuerTxt}` // for hitting back-end server
 
   request(tmpURL,  (error, response, body) => 
