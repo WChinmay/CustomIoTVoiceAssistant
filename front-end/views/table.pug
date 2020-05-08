@@ -1,0 +1,65 @@
+extends layout
+
+block content
+  .uk-section
+    .uk-container
+      table.uk-table.uk-table-divider
+        thead
+          tr
+            th #{tableType} Name
+            th #{tableType} ID
+            th #{tableType} Price
+            th #{tableType} Color
+        tbody
+          each value, index in tmpObj
+            tr
+              td #{(tmpObj[index])._source.product_name}
+              td #{(tmpObj[index])._source.product_id}
+              td #{(tmpObj[index])._source.product_price}
+              td #{(tmpObj[index])._source.product_color}
+
+
+
+//- .limiter
+//-   .container-table100
+//-     .wrap-table100
+//-       .table
+//-         .row.header
+//-           .cell
+//-             | Product Name
+//-           .cell
+//-             | Product ID
+//-           .cell
+//-             | Product Price
+//-           .cell
+//-             | Product Color  
+//-         .row
+//-           .cell(data-title='Product Name')
+//-             | #{first_pn}
+//-           .cell(data-title='Product ID')
+//-             | #{first_pid}
+//-           .cell(data-title='JProduct Price')
+//-             | #{first_pp}
+//-           .cell(data-title='Product Color')
+//-             | #{first_pc}
+
+
+//- table.uk-table.uk-table-divider
+//-   thead
+//-     tr
+//-       th Table Heading
+//-       th Table Heading
+//-       th Table Heading
+//-   tbody
+//-     tr
+//-       td Table Data
+//-       td Table Data
+//-       td Table Data
+//-     tr
+//-       td Table Data
+//-       td Table Data
+//-       td Table Data
+//-     tr
+//-       td Table Data
+//-       td Table Data
+//-       td Table Data

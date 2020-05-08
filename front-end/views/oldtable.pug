@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  .limiter
+    p.timeTaken Index Search Time: #{indexLoadTime} ms
+      .container-table100
+        .wrap-table100
+          .table
+            .row.header
+              .cell #{tableType} Name
+              .cell #{tableType} ID
+              .cell #{tableType} Price
+              .cell #{tableType} Color
+            each value, index in tmpObj
+              .row    
+                .cell(data-title=`#{tableType} Name`) #{(tmpObj[index])._source.product_name}
+                .cell(data-title=`#{tableType} ID`) #{(tmpObj[index])._source.product_id}
+                .cell(data-title=`#{tableType} Price`) #{(tmpObj[index])._source.product_price}
+                .cell(data-title=`#{tableType} Color`) #{(tmpObj[index])._source.product_color}
+    input.storeJSON(type="hidden", name="...",value=' ' + tmpObj)
+    | 
