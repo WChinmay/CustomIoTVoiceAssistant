@@ -1,3 +1,5 @@
+# Record audio while button is pressed
+
 #!/usr/bin/python
 import RPi.GPIO as GPIO
 

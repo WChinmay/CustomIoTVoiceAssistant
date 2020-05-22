@@ -1,3 +1,5 @@
+# Version 3 of master code, running in the background using a sysdaemon process on the RasPi
+
 import RPi.GPIO as GPIO # Import Raspberry Pi GPIO library
 import pyaudio # To record from microphone
 import wave # To save as .wav file

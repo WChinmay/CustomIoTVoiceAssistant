@@ -1,3 +1,5 @@
+// Render Webpage for the simple secondary GUI
+
 const express = require('express');
 const router = express.Router();
 

@@ -1,3 +1,5 @@
+# Recording audio using the connected microphone
+
 import pyaudio
 import wave
 

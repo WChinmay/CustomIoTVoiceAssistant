@@ -1,4 +1,6 @@
 
+# Start servers and ElasticSearch
+
 echo "Starting ElasticSearch Server"
 /Users/ronanmanoj/Documents/elasticsearch-7.5.2/bin/elasticsearch
 
